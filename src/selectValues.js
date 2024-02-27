@@ -1,0 +1,33 @@
+// Adapted from https://en.wikipedia.org/wiki/List_of_musical_instruments
+
+export const musicalInstruments = [
+  'Aeolian harp',
+  'Bandolin',
+  'Banjo ukulele', 
+  'Cello',
+  'Chapman stick',
+  'Clavichord',
+  'Clavinet',
+  'Double bass',
+  'Dulcimer',
+  'Fiddle',
+  'Guitar',
+  'Hammered dulcimer',
+  'Harp',
+  'Harpsichord',
+  'Lute',
+  'Lyre',
+  'Maguhu',
+  'Mandola',
+  'Mandolin',
+  'Octobass',
+  'Piano',
+  'Sitar',
+  'Ukulele',
+  'Viol',
+  'Violin',
+  'Washtub bass',
+].map((i) => ({
+  label: i,
+  option: i,
+}));
