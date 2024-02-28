@@ -99,7 +99,7 @@ export const advanceFilterColumns = columns
       name: col,
       label: arr.join(' '),
       inputType: type,
-      operators: [...operators.filter((i) => i.type.includes(type))],
+      operators: [...operators.filter((i) => i.type.includes(type) || 'all' === i.type)],
     };
   })
   .sort((a,
