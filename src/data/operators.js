@@ -11,82 +11,82 @@ export const operators = [
   },
   {
     type: 'date|number',
-    name: '<',
+    name: 'LESSER_THAN',
     label: '<',
   },
   {
     type: 'date|number',
-    name: '>',
+    name: 'GREATER_THAN',
     label: '>',
   },
   {
     type: 'date|number',
-    name: '<=',
+    name: 'LESSER_THAN_EQUAL',
     label: '<=',
   },
   {
     type: 'date|number',
-    name: '>=',
+    name: 'GREATER_THAN_EQUAL',
     label: '>=',
   },
   {
     type: 'string',
-    name: 'contains',
+    name: 'LIKE',
     label: 'contains',
   },
   {
     type: 'string',
-    name: 'beginsWith',
+    name: 'BEGINS_WITH',
     label: 'begins with',
   },
   {
     type: 'string',
-    name: 'endsWith',
+    name: 'ENDS_WITH',
     label: 'ends with',
   },
-  {
-    type: 'string',
-    name: 'doesNotContain',
-    label: 'does not contain',
-  },
-  {
-    type: 'string',
-    name: 'doesNotBeginWith',
-    label: 'does not begin with',
-  },
-  {
-    type: 'string',
-    name: 'doesNotEndWith',
-    label: 'does not end with',
-  },
+  // {
+  //   type: 'string',
+  //   name: 'doesNotContain',
+  //   label: 'does not contain',
+  // },
+  // {
+  //   type: 'string',
+  //   name: 'doesNotBeginWith',
+  //   label: 'does not begin with',
+  // },
+  // {
+  //   type: 'string',
+  //   name: 'doesNotEndWith',
+  //   label: 'does not end with',
+  // },
   {
     type: 'all',
-    name: 'null',
+    name: 'IS_NULL',
     label: 'is null',
   },
   {
     type: 'all',
-    name: 'notNull',
+    name: 'NOT_NULL',
     label: 'is not null',
   },
   {
     type: 'string',
-    name: 'in',
+    name: 'IN',
     label: 'in',
   },
   {
     type: 'string',
-    name: 'notIn',
+    name: 'NOT_IN',
     label: 'not in',
   },
-  {
-    type: 'date|number',
-    name: 'between',
-    label: 'between',
-  },
-  {
-    type: 'date|number',
-    name: 'notBetween',
-    label: 'not between',
-  },
+  // {
+  //   type: 'date|number',
+  //   name: 'between',
+  //   label: 'between',
+  // },
+  // {
+  //   type: 'date|number',
+  //   name: 'notBetween',
+  //   label: 'not between',
+  // },
 ];
